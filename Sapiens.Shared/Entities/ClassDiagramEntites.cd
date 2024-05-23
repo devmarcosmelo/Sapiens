@@ -8,21 +8,21 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Sapiens.Shared.Entities.Coordenador" Collapsed="true">
-    <Position X="6.75" Y="3.25" Width="1.5" />
+    <Position X="6" Y="3.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Entities\Coordenador.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Sapiens.Shared.Entities.Curso" Collapsed="true">
-    <Position X="10.25" Y="0.5" Width="1.5" />
+    <Position X="6" Y="0.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAEAAAAAABAAAAAAAAAAAAAAAEAAAQ=</HashCode>
       <FileName>Entities\Curso.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Sapiens.Shared.Entities.Disciplina" Collapsed="true">
-    <Position X="10.5" Y="1.75" Width="1.5" />
+    <Position X="6" Y="2" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAQ=</HashCode>
       <FileName>Entities\Disciplina.cs</FileName>
@@ -38,7 +38,7 @@
   <Class Name="Sapiens.Shared.Entities.Pessoa" Collapsed="true">
     <Position X="1.5" Y="1.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAABAgCAQIAAAgAAAAAAAAAAAAAAAAAAAQAWQEAA=</HashCode>
+      <HashCode>AAAAAAJAgCAQIAAAgAAAAAAAAAAAACAAAAAAQAWQEAA=</HashCode>
       <FileName>Entities\Pessoa.cs</FileName>
     </TypeIdentifier>
   </Class>
