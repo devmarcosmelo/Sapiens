@@ -12,13 +12,13 @@ public class Curso
 
     public TipoCurso Tipo { get; set; }
 
-    public Curso(string nome)
-    {
-        Nome = nome;
-    }
+    //public Curso(string nome)
+    //{
+        //Nome = nome;
+   //}
 
     public override string ToString()
     {
-        return Nome;
+        return Nome ?? "";
     }
 }
