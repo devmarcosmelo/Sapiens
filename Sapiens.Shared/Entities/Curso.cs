@@ -6,7 +6,7 @@ namespace Sapiens.Shared.Entities;
 public class Curso
 {
     [StringLength(100)]
-    public string Nome { get; set; }
+    public string? Nome { get; set; }
 
     public int? CargaHoraria { get; set; }
 

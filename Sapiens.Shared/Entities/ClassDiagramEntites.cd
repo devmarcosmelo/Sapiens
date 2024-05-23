@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Sapiens.Shared.Entities.Aluno" Collapsed="true">
+    <Position X="4" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Aluno.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sapiens.Shared.Entities.Coordenador" Collapsed="true">
+    <Position X="6.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Coordenador.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sapiens.Shared.Entities.Curso" Collapsed="true">
+    <Position X="10.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAABAAAAAAAAAAAAAAAEAAAQ=</HashCode>
+      <FileName>Entities\Curso.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sapiens.Shared.Entities.Disciplina" Collapsed="true">
+    <Position X="10.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAQ=</HashCode>
+      <FileName>Entities\Disciplina.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sapiens.Shared.Entities.Funcionario" Collapsed="true">
+    <Position X="3.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Funcionario.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sapiens.Shared.Entities.Pessoa" Collapsed="true">
+    <Position X="1.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAgCAQIAAAgAAAAAAAAAAAAAAAAAAAQAWQEAA=</HashCode>
+      <FileName>Entities\Pessoa.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
