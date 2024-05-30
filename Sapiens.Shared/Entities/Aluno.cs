@@ -13,5 +13,6 @@ public class Aluno: Pessoa
     public string? Matricula { get; set; }
 
     public SituacaoAluno? Situacao { get; set; }
+    public Curso? Curso { get; set; }
 
 }

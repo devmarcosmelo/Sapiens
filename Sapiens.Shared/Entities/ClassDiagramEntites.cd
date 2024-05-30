@@ -1,42 +1,71 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="Sapiens.Shared.Entities.Aluno" Collapsed="true">
-    <Position X="4" Y="0.75" Width="1.5" />
+    <Position X="3" Y="0.5" Width="1.5" />
+    <InheritanceLine Type="Sapiens.Shared.Entities.Pessoa" ManuallyRouted="true">
+      <Path>
+        <Point X="1.25" Y="2.25" />
+        <Point X="1.25" Y="0.894" />
+        <Point X="3" Y="0.894" />
+      </Path>
+    </InheritanceLine>
     <TypeIdentifier>
-      <HashCode>AAAAAAAQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAQEQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Entities\Aluno.cs</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Curso" />
+    </ShowAsAssociation>
   </Class>
   <Class Name="Sapiens.Shared.Entities.Coordenador" Collapsed="true">
-    <Position X="6" Y="3.25" Width="1.5" />
+    <Position X="8" Y="3.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Entities\Coordenador.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Sapiens.Shared.Entities.Curso" Collapsed="true">
-    <Position X="6" Y="0.75" Width="1.5" />
+    <Position X="8" Y="0.5" Width="1.5" />
+    <AssociationLine Name="Coordenador" Type="Sapiens.Shared.Entities.Coordenador">
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="0.06" Y="0.11" Height="0.182" Width="1.225" />
+      </MemberNameLabel>
+    </AssociationLine>
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAEAAAAAABAAAAAAAAAAAAAAAEAAAQ=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAABAAAAAAAAAQAAAAAEAAAQ=</HashCode>
       <FileName>Entities\Curso.cs</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Coordenador" />
+    </ShowAsAssociation>
   </Class>
   <Class Name="Sapiens.Shared.Entities.Disciplina" Collapsed="true">
-    <Position X="6" Y="2" Width="1.5" />
+    <Position X="11.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAQ=</HashCode>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAACAAAAAAAAAAAAAAAEAAAQ=</HashCode>
       <FileName>Entities\Disciplina.cs</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Curso" />
+    </ShowAsAssociation>
   </Class>
   <Class Name="Sapiens.Shared.Entities.Funcionario" Collapsed="true">
-    <Position X="3.75" Y="3.25" Width="1.5" />
+    <Position X="3" Y="3.5" Width="1.5" />
+    <InheritanceLine Type="Sapiens.Shared.Entities.Pessoa" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="1.25" Y="2.812" />
+        <Point X="1.25" Y="3.658" />
+        <Point X="3" Y="3.658" />
+        <Point X="3" Y="3.875" />
+      </Path>
+    </InheritanceLine>
     <TypeIdentifier>
-      <HashCode>AAAAAEAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAEAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
       <FileName>Entities\Funcionario.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Sapiens.Shared.Entities.Pessoa" Collapsed="true">
-    <Position X="1.5" Y="1.5" Width="1.5" />
+    <Position X="0.5" Y="2.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAJAgCAQIAAAgAAAAAAAAAAAACAAAAAAQAWQEAA=</HashCode>
       <FileName>Entities\Pessoa.cs</FileName>

@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Sapiens.Shared.Entities;
 
-public class Pessoa
+public abstract class Pessoa //abstract não pode ser instanciada
 {
     [StringLength(255)]
     public string? Nome { get; set; }
@@ -25,10 +25,10 @@ public class Pessoa
     public TipoSexo? Sexo { get; set; }
     public string? Foto { get; set; } //pode ser byte tbm[]
     public Endereco? Endereco { get; set; }
-    public string? EstadoCivil { get; set; }
+    public EstadoCivil? EstadoCivil { get; set; }
 
     [StringLength(5)]
-    public TipoSanguineo? TipoSanguinio { get; set; }
+    public TipoSanguineo? TipoSanguineo { get; set; }
 
     public CorOuRaca? CorOuRaca { get; set; }
     public bool? PCD { get; set; }

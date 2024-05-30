@@ -9,5 +9,8 @@ public class Disciplina
     public required string Nome { get; set; }
 
     public TipoDisciplina Tipo { get; set; }
-    public string? Curso { get; set; }
+    public Curso? Curso { get; set; }
+
+    public Professor? Professor { get; set; }
+
 }

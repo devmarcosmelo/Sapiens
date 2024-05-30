@@ -6,8 +6,6 @@ using System.Threading.Tasks;
 
 namespace Sapiens.Shared.Entities;
 
-public class Coordenador : Professor
+public abstract class Entidades
 {
-    //public string? Funcao { get; set; }
-    public Curso? Curso { get; set; }
 }

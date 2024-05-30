@@ -12,6 +12,9 @@ public class Curso
 
     public TipoCurso Tipo { get; set; }
 
+
+    public Coordenador?  Coordenador { get; set; }
+
     //public Curso(string nome)
     //{
         //Nome = nome;

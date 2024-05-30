@@ -12,5 +12,7 @@ namespace Sapiens.Shared.Entities
         public Titulacao? Titulacao { get; set; }
         //public string? Cpf { get; set; }
         public string? Formacao { get; set; }
+
+        public Disciplina? Disciplina { get; set; }
     }
 }

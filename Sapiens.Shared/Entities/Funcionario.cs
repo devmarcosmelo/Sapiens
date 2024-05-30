@@ -13,4 +13,7 @@ public class Funcionario : Pessoa
     public decimal? Salario { get; set; }
     public SituacaoFuncionario? Situacao { get; set; }
 
+    public string? Funcao { get; set; }
+
+
 }
